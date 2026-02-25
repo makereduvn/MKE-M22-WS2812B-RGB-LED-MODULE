@@ -5,7 +5,7 @@ MKE-M22 WS2812B RGB LED Module là mạch LED đổi màu tích hợp 3 LED RGB 
 
 Mạch được thiết kế với hai cổng DI (Data In) và DO (Data Out) giúp nối tiếp nhiều module với nhau để tạo thành dải LED RGB mở rộng, rất thuận tiện cho các ứng dụng trang trí hoặc hiển thị hiệu ứng ánh sáng quy mô lớn.
 
-Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
+Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module hỗ trợ điện áp giao tiếp 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
 
 Nhờ khả năng hiển thị nhiều màu sắc và hiệu ứng linh hoạt, module phù hợp cho:
 - Đèn tín hiệu giao thông mô hình
@@ -92,5 +92,6 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_2.png)
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_3.png)
+
 
 
