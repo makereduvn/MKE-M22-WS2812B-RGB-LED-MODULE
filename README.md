@@ -1,15 +1,33 @@
 # Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module
 
 ## Giới thiệu sản phẩm
-MKE-M22 WS2812B RGB LED Module là mạch LED đổi màu với 3 đèn led RGB WS2812B trên mạch sử dụng giao tiếp 1-Wire. Sản phẩm rất phù hợp để làm đèn giao thông, mô hình robot, sản phẩm STEM, đồ án học tập và trang trí sáng tạo. mạch có 2 cổng DI (Data In) và DO (Data Out) giúp nối tiếp thêm các module led để tạo thành dải led trang trí linh hoạt.
+MKE-M22 WS2812B RGB LED Module là mạch LED đổi màu tích hợp 3 LED RGB WS2812B dạng SMD 5050, sử dụng chuẩn giao tiếp Digital 1-Wire giúp điều khiển nhiều LED chỉ với một chân tín hiệu từ vi điều khiển. Mỗi LED có thể điều khiển độc lập màu sắc và độ sáng, cho phép tạo ra nhiều hiệu ứng ánh sáng sinh động.
+
+Mạch được thiết kế với hai cổng DI (Data In) và DO (Data Out) giúp nối tiếp nhiều module với nhau để tạo thành dải LED RGB mở rộng, rất thuận tiện cho các ứng dụng trang trí hoặc hiển thị hiệu ứng ánh sáng quy mô lớn.
 
 Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module hỗ trợ điện áp điều khiển 3.3/5VDC, cho phép kết nối trực tiếp và an toàn với hầu hết các bo mạch điều khiển phổ biến hiện nay như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,… Mạch đi kèm cáp kết nối 3P XH2.54–Dupont đảm bảo chắc chắn, ổn định và linh hoạt khi kết nối.
+
+Nhờ khả năng hiển thị nhiều màu sắc và hiệu ứng linh hoạt, module phù hợp cho:
+- Đèn tín hiệu giao thông mô hình
+- Hiệu ứng ánh sáng cho robot và xe thông minh
+- Dải LED trang trí nội thất, bảng hiệu
+- Hiển thị trạng thái hệ thống (status LED)
+- Mô hình STEM và giáo dục lập trình
+- Đồng hồ LED, ma trận LED mini
+- Các đồ án điện tử và IoT sáng tạo
 
 ## Thông số kỹ thuật
 - Điện áp cấp nguồn: 5VDC
 - Chuẩn tín hiệu điều khiển: Digital 1-Wire
-- Điện áp giao tiếp: TTL 3.3/5VDC
-- Màu sắc: RGB (kết hợp để tạo ra nhiều màu)
+- Điện áp giao tiếp: TTL 3.3 / 5VDC
+- Loại LED: SMD 5050 RGB (tạo nhiều màu bằng trộn 3 kênh R-G-B)
+- Số lượng LED: 3 LED RGB điều khiển độc lập
+- Cổng tín hiệu:
+  - DI (Data In)
+  - DO (Data Out) hỗ trợ nối chuỗi nhiều module
+Thiết kế mạch:
+  - Ổn định tín hiệu, chống nhiễu
+  - Nhỏ gọn, dễ tích hợp mô hình
 - Khả năng tương thích:
   - Arduino
   - Raspberry Pi
@@ -42,7 +60,7 @@ Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module hỗ trợ điện áp đi
   </tr>
   <tr>
     <td>DO</td>
-    <td>Chân tín hiệu Data Out</td>
+    <td>Chân tín hiệu Data Out, hỗ trợ nối chuỗi nhiều module</td>
   </tr>
 </tbody>
 </table>
@@ -51,7 +69,7 @@ Mạch LED đổi màu MKE-M22 WS2812B RGB LED Module hỗ trợ điện áp đi
 ### Hướng dẫn kết nối
 - Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
 - Kết nối chân DI (Data In) của Module với chân điều khiển được khai báo trong chương trình.
-- Kết cổng DO (Data Out) của Module với cổng DI (Data In) của các module kế tiếp để tạo thành dải Led RGB nếu cần.
+- Kết cổng DO (Data Out) của Module với cổng DI (Data In) của các module kế tiếp để tạo thành chuỗi Led RGB nếu cần.
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
 - Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MKE_ONE" by MakerEdu.vn**
 - Mở chương trình mẫu **"MKE_M22_RGB_WS2812B_Serial_XXX"** tại **File / Examples / MAKEREDU / Module / MKE_M22_RGB_WS2812B**
@@ -74,4 +92,5 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_2.png)
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_3.png)
+
 
