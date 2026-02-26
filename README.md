@@ -47,11 +47,11 @@ Thiết kế mạch:
   </tr></thead>
 <tbody>
   <tr>
-    <td>GND</td>
+    <td>-</td>
     <td>Chân cấp nguồn âm 0VDC</td>
   </tr>
   <tr>
-    <td>5V</td>
+    <td>+</td>
     <td>Chân cấp nguồn dương 5VDC</td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Thiết kế mạch:
 
 ## Hướng dẫn sử dụng
 ### Hướng dẫn kết nối
-- Cấp nguồn 5VDC cho mạch qua hai chân GND và 5V.
+- Cấp nguồn 5VDC cho mạch qua hai chân - và +.
 - Kết nối chân DI (Data In) của Module với chân điều khiển được khai báo trong chương trình.
 - Kết cổng DO (Data Out) của Module với cổng DI (Data In) của các module kế tiếp để tạo thành chuỗi Led RGB nếu cần.
 ### Hướng dẫn sử dụng với Arduino Uno / Vietduino Uno / ESP32
@@ -92,6 +92,7 @@ Nếu bắt đầu tự án mới cần cài đặt Extension **MKE_ONE_MICROBIT
 ## Hình ảnh sản phẩm
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_2.png)
 ![MKE-M22 RGB_WS2812](/extras/MKE-M22_3.png)
+
 
 
 
